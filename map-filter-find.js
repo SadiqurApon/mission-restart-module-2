@@ -12,4 +12,4 @@ const firstGoodStudent = students.find(goodStudent => goodStudent.marks > 60);
 console.log(names);
 console.log(goodStudents);
 console.log(heighestMarks);
-console.log(firstGoodStudent);
+console.log(firstGoodStudent); 
