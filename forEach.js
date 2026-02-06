@@ -5,4 +5,8 @@ numbers.forEach(num => {
     console.log(doubled);
 })    
 const graterthen15 = numbers.filter( x => x < 15);
-console.log(graterthen15);
+console.log(graterthen15); 
+const evenNumbers = numbers.filter( num => num %2 === 0);
+console.log(evenNumbers);
+const firstEven = numbers.find ( first => first % 2 === 0);
+console.log(firstEven);
